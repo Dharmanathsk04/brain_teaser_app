@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brain Teaser App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Brain Teaser Challenge</h1>
+    <p id="teaser">Click "New Teaser" to get started!</p>
+    <p id="answer" class="hidden">Answer will appear here</p>
+
+    <button onclick="newTeaser()">🆕 New Teaser</button>
+    <button onclick="showAnswer()">🙋 Show Answer</button>
+
+    <div class="scoreboard">
+      Score: <span id="score">0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
